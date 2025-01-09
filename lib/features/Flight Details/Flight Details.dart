@@ -42,15 +42,11 @@ class FlightDetailsScreen extends StatelessWidget {
                   const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      // Sorting, Non-Stop, Filter Buttons
                       Text('sort'),
                       Icon(Icons.keyboard_arrow_down),
-
                       SizedBox(width: 8),
                       Text('Non-Stop'),
-
                       Icon(Icons.keyboard_arrow_down),
-
                       SizedBox(width: 8),
                       Text('Filter'),
                       Icon(Icons.filter_list),
